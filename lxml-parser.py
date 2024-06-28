@@ -21,7 +21,9 @@ root = mihker_etree.getroot()
 # print(root[0].tag)
 # print(root[1].tag)
 # print(root[0]) 
-for child in root:
+
+# basic parsing by index number
+# for child in root:
     # print(child[0].tag)
     # print(child[0].text)
     # print(child[1].tag)
@@ -43,16 +45,44 @@ for child in root:
 
     # Presentable(ish) employee data via LXML
     # note: this code may be simplified by using LEN
-    print(f"{child[0].text} {child[1].text}:")
-    print(f"{child[2].tag}: {child[2].text}")
-    print(f"{child[3].tag}: ${child[3].text}")
-    print(f"{child[4].tag}: {child[4].text}")
-    print(child[5][0].text)
-    print(f"{child[5][2].text}, {child[5][3].text} {child[5][4].text}")
-    print(child.get("email"))  # attribute syntax 
-    print()
+    # print(f"{child[0].text} {child[1].text}:")
+    # print(f"{child[2].tag}: {child[2].text}")
+    # print(f"{child[3].tag}: ${child[3].text}")
+    # print(f"{child[4].tag}: {child[4].text}")
+    # print(child[5][0].text)
+    # print(f"{child[5][2].text}, {child[5][3].text} {child[5][4].text}")
+    # print(child.get("email"))  # attribute syntax 
+    # print()
+  
+#######################################################
 
+# We might want to iterate through the values of tags that appear in multiple elements
+# This is an example of the 'iter' function: 
+# for salary in root.iter('Salary'):
+#     print(salary.text)
 
+# for dept in root.iter('Dept'):
+#     print(dept.text)
+
+# The 'find all' function finds all the children with a specific tag name. When you use the find all 
+# function on a node, it only looks at the children, not the grandchildren. 
+
+# print(len(root[0].findall('FirstName')))
+# print(root[0].findall('FirstName')[0].text)
+"""
+Output:
+1
+Mihkel
+* because we indexed from root[0], there was only 1 iteration of the FirstName tag, hence 1.
+* the 2nd print statement simply prints the value of the specified tag
+"""
+
+# this is how you WRITE to CompanyData.xml:
+root[0][0].text = "Bihker" 
+mihker_etree.write('CompanyData.xml')  # holy hell IT WORKS!! 
+
+# this is how you REMOVE A TAG from CompanyData.xml
+# root[3].remove(root[3][3])  # didn't execute - this would remove the dog's salary lol
 
 
 
