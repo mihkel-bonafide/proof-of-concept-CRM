@@ -1,0 +1,71 @@
+{
+    "Employee":
+        [
+            {
+                "FirstName": "Mihker",
+                "LastName": "Gardner",
+                "Email": "mihkel.gardner@fakecompany.com",
+                "EmpID": "44210",
+                "Salary": 169000,
+                "Dept": "IT",
+                "Address": 
+                    {
+                        "Street": "2734 NE 49th Ave",
+                        "Unit": "none",
+                        "City": "Portland",
+                        "State": "OR",
+                        "Zip": "97213"
+                    }
+            },
+            {
+                "FirstName": "Lily",
+                "LastName": "Gardner-Butts",
+                "Email": "lily.gardner-butts@fakecompany.com",
+                "EmpID": "44211",
+                "Salary": 100000,
+                "Dept": "CEO",
+                "Address": 
+                    {
+                        "Street": "2734 NE 49th Ave",
+                        "Unit": "none",
+                        "City": "Portland",
+                        "State": "OR",
+                        "Zip": "97213"
+                    }
+            },
+            {
+                "FirstName": "Jill",
+                "LastName": "Helmberger",
+                "Email": "jill.helmberger@fakecompany.com",
+                "EmpID": "44212",
+                "Salary": 200000,
+                "Dept": "CTO",
+                "Address": 
+                    {
+                        "Street": "15900 NE 18th St",
+                        "Unit": "none",
+                        "City": "Vancouver",
+                        "State": "WA",
+                        "Zip": "98003"
+                    }
+            },
+            {
+                "FirstName": "Charles",
+                "LastName": "Helmberger",
+                "Email": "charles.helmberger@fakecompany.com",
+                "EmpID": "44213",
+                "Salary": 150,
+                "Dept": "dog",
+                "Address": 
+                    {
+                        "Street": "15900 NE 18th St",
+                        "Unit": "none",
+                        "City": "Vancouver",
+                        "State": "WA",
+                        "Zip": "98003"
+                    }
+            }
+
+
+        ]
+}

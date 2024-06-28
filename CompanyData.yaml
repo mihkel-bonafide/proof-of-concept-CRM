@@ -1,0 +1,47 @@
+---
+Employee:
+-   FirstName: Mihker
+    LastName: Gardner
+    EmpID: "44210"
+    Salary: 169000
+    Dept: IT
+    Address:
+    - Street: 2734 NE 49th Ave
+      Unit: 
+      City: Portland
+      State: OR
+      Zip: "97213"
+-   FirstName: Lily
+    LastName: Gardner-Butts
+    EmpID: "44211"
+    Salary: 100000
+    Dept: CEO
+    Address:
+    - Street: 2734 NE 49th Ave
+      Unit: 
+      City: Portland
+      State: OR
+      Zip: "97213"
+-   FirstName: Jill
+    LastName: Helmberger
+    EmpID: "44212"
+    Salary: 200000
+    Dept: CTO
+    Address:
+    - Street: 15900 NE 18th St
+      Unit: 
+      City: Vancouver
+      State: WA
+      Zip: "99003"
+-   FirstName: Charles
+    LastName: Helmberger
+    EmpID: "44213"
+    Salary: 150
+    Dept: dog
+    Address:
+    - Street: 15900 NE 18th St
+      Unit: 
+      City: Vancouver
+      State: OWA
+      Zip: "99003"
+...

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<Employees>
+        <Employee email="mihker.gardner@fakecompany.com">
+        <FirstName>Mihkel</FirstName>
+        <LastName>Gardner</LastName>
+        <EmpID>44210</EmpID>
+        <Salary>169000</Salary>
+        <Dept>IT</Dept>
+        <Address>
+            <Street>2734 NE 49th Ave</Street>
+            <Unit></Unit>
+            <City>Portland</City>
+            <State>OR</State>
+            <ZipCode>97213</ZipCode>
+        </Address>
+    </Employee>
+
+    <Employee email="lily.gardner-butts@fakecompany.com">
+        <FirstName>Lily</FirstName>
+        <LastName>Gardner-Butts</LastName>
+        <EmpID>44211</EmpID>
+        <Salary>100000</Salary>
+        <Dept>CEO</Dept>
+        <Address>
+            <Street>2734 NE 49th Ave</Street>
+            <Unit></Unit>
+            <City>Portland</City>
+            <State>OR</State>
+            <ZipCode>97213</ZipCode>
+        </Address>
+    </Employee>
+
+        <Employee email="jill.helmberger@fakecompany.com">
+        <FirstName>Jill</FirstName>
+        <LastName>Helmberger</LastName>
+        <EmpID>44212</EmpID>
+        <Salary>200000</Salary>
+        <Dept>CTO</Dept>
+        <Address>
+            <Street>15900 NE 18th St</Street>
+            <Unit></Unit>
+            <City>Vancouver</City>
+            <State>WA</State>
+            <ZipCode>98003</ZipCode>
+        </Address>
+    </Employee>
+
+    <Employee email="charles.helmberger@fakecompany.com">
+        <FirstName>Charles</FirstName>
+        <LastName>Helmberger</LastName>
+        <EmpID>44213</EmpID>
+        <Salary>150</Salary>
+        <Dept>dog</Dept>
+        <Address>
+            <Street>15900 NE 18th St</Street>
+            <Unit></Unit>
+            <City>Vancouver</City>
+            <State>WA</State>
+            <ZipCode>98003</ZipCode>
+        </Address>
+    </Employee>
+
+
+
+</Employees>
