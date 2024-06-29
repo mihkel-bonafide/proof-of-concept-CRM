@@ -85,7 +85,7 @@ Mihkel
 # root[3].remove(root[3][3])  # didn't execute - this would remove the dog's salary lol
 
 """
-Note to self: you can use XPATH query within LXML to reference tags by name instead of index 
+Note to future self: you can use XPATH query within LXML to reference tags by name instead of index 
 value. I'm leaning in the direciton of using xmltodict instead, but if you need to use lxml 
 down the road and reference tags by name, the format/syntax (on a general level) is:
 description = data.xpath('tagname//tagname)(just look this up later if you need to)
