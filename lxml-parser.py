@@ -1,7 +1,7 @@
 from lxml import etree 
 
 """
-This module is for accessing CompanyData.xml. -MPG, 6/26/24
+This module is for accessing CompanyData.xml via the lxml library. -MPG, 6/28/24
 """
 
 # Get the XML file data
@@ -78,14 +78,18 @@ Mihkel
 """
 
 # this is how you WRITE to CompanyData.xml:
-root[0][0].text = "Bihker" 
-mihker_etree.write('CompanyData.xml')  # holy hell IT WORKS!! 
+# root[0][0].text = "Bihker" 
+# mihker_etree.write('CompanyData.xml')  # holy hell IT WORKS!! 
 
 # this is how you REMOVE A TAG from CompanyData.xml
 # root[3].remove(root[3][3])  # didn't execute - this would remove the dog's salary lol
 
-
-
+"""
+Note to self: you can use XPATH query within LXML to reference tags by name instead of index 
+value. I'm leaning in the direciton of using xmltodict instead, but if you need to use lxml 
+down the road and reference tags by name, the format/syntax (on a general level) is:
+description = data.xpath('tagname//tagname)(just look this up later if you need to)
+"""
 
 
 

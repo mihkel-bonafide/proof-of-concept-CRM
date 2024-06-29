@@ -1,14 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?> 
 <Employees>
         <Employee email="mihker.gardner@fakecompany.com">
-        <FirstName>Mihkel</FirstName>
+        <FirstName>Mihker</FirstName>
         <LastName>Gardner</LastName>
         <EmpID>44210</EmpID>
         <Salary>169000</Salary>
         <Dept>IT</Dept>
         <Address>
             <Street>2734 NE 49th Ave</Street>
-            <Unit></Unit>
+            <Unit/>
             <City>Portland</City>
             <State>OR</State>
             <ZipCode>97213</ZipCode>
@@ -23,7 +22,7 @@
         <Dept>CEO</Dept>
         <Address>
             <Street>2734 NE 49th Ave</Street>
-            <Unit></Unit>
+            <Unit/>
             <City>Portland</City>
             <State>OR</State>
             <ZipCode>97213</ZipCode>
@@ -38,7 +37,7 @@
         <Dept>CTO</Dept>
         <Address>
             <Street>15900 NE 18th St</Street>
-            <Unit></Unit>
+            <Unit/>
             <City>Vancouver</City>
             <State>WA</State>
             <ZipCode>98003</ZipCode>
@@ -53,7 +52,7 @@
         <Dept>dog</Dept>
         <Address>
             <Street>15900 NE 18th St</Street>
-            <Unit></Unit>
+            <Unit/>
             <City>Vancouver</City>
             <State>WA</State>
             <ZipCode>98003</ZipCode>
