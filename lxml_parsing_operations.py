@@ -1,6 +1,11 @@
 from lxml import etree 
 
 """
+After attempting to fix this module after changing the source xml file, the parse() function
+has decided to stop working. :(  -MPG, 6.29
+"""
+
+"""
 This module is for accessing CompanyData.xml via the lxml library. -MPG, 6/28/24
 """
 
@@ -16,11 +21,11 @@ mihker_etree = etree.parse(company_data)
 root = mihker_etree.getroot()
 
 # How to navigate:
-# print(root.tag)
-# print(len(root))
-# print(root[0].tag)
-# print(root[1].tag)
-# print(root[0]) 
+print(root.tag)
+print(len(root))
+print(root[0].tag)
+print(root[1].tag)
+print(root[0]) 
 
 # basic parsing by index number
 # for child in root:
@@ -47,11 +52,12 @@ root = mihker_etree.getroot()
     # note: this code may be simplified by using LEN
     # print(f"{child[0].text} {child[1].text}:")
     # print(f"{child[2].tag}: {child[2].text}")
-    # print(f"{child[3].tag}: ${child[3].text}")
-    # print(f"{child[4].tag}: {child[4].text}")
-    # print(child[5][0].text)
-    # print(f"{child[5][2].text}, {child[5][3].text} {child[5][4].text}")
-    # print(child.get("email"))  # attribute syntax 
+    # print(f"{child[3].tag}: {child[3].text}")
+    # print(f"{child[4].tag}: ${child[4].text}")
+    # print(f"{child[5].tag}: ${child[5].text}")
+    # print(child[6][0].text)
+    # print(f"{child[6][2].text}, {child[6][3].text} {child[6][4].text}")
+    # print(child.get("id"))  # attribute syntax 
     # print()
   
 #######################################################
@@ -69,6 +75,7 @@ root = mihker_etree.getroot()
 
 # print(len(root[0].findall('FirstName')))
 # print(root[0].findall('FirstName')[0].text)
+
 """
 Output:
 1
