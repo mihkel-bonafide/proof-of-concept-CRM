@@ -24,6 +24,10 @@ print(root[0])   # output: 'Element Employee at 0x213b...'
 # print(root[0]["Employee"])  # "TypeError: 'str' object cannot be interpreted as an integer"
 print(root[0][0])  # output: 'Element FirstName at 0x...' 
 print(root[0][0].text)  # output: Mihker
+print("*****************")
+print(root[0][1].text) # output: Gardner
+print(root[2][0].text) # output: Jill
+print("*****************")
 print(f"{root[0][0].text}'s salary is ${root[0][4].text} and his email is {root[0][2].text}")
 # output: Mihker's salary is $169000 and his email is mihker.gardner@fakecompany.com 
 print(len(root[0])) # output: 7 
@@ -79,7 +83,12 @@ for dept in root.iter('Dept'):
 
 print(len(root[0].findall('FirstName')))  # output: 1 
 print(root[0].findall('FirstName')[0].text)  # output: Mihker
-print(root[1].findall('FirstName')[0].text)  # output: Lily
+print(root[0].findall('LastName')[0].text)  # output: Gardner
+print(root[1].findall('Dept')[0].text)  
+# output: CEO 
+# note: The [0] index above needs to be there, but it accepts no other value and has no iterative function.
+#       The index after root references a given Employee object, and after that the .findall() function
+#       pulls the string matching the tagged element as shown above.
 
 ##################################################################################
 
