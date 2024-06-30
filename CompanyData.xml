@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <! -- XML comment syntax -->
 <Employees>
-        <Employee email="mihker.gardner@fakecompany.com">
+        <Employee id="1">
         <FirstName>Mihker</FirstName>
         <LastName>Gardner</LastName>
+        <Email>mihker.gardner@fakecompany.com</Email>
         <EmpID>44210</EmpID>
         <Salary>169000</Salary>
         <Dept>IT</Dept>
@@ -16,9 +17,10 @@
         </Address>
     </Employee>
 
-    <Employee email="lily.gardner-butts@fakecompany.com">
+    <Employee id="2">
         <FirstName>Lily</FirstName>
         <LastName>Gardner-Butts</LastName>
+        <Email>lily.gardner-butts@fakecompany.com</Email>
         <EmpID>44211</EmpID>
         <Salary>100000</Salary>
         <Dept>CEO</Dept>
@@ -31,9 +33,10 @@
         </Address>
     </Employee>
 
-        <Employee email="jill.helmberger@fakecompany.com">
+        <Employee id="3">
         <FirstName>Jill</FirstName>
         <LastName>Helmberger</LastName>
+        <Email>jill.helmberger@fakecompany.com</Email>
         <EmpID>44212</EmpID>
         <Salary>200000</Salary>
         <Dept>CTO</Dept>
@@ -46,9 +49,10 @@
         </Address>
     </Employee>
 
-    <Employee email="charles.helmberger@fakecompany.com">
+    <Employee id="4">
         <FirstName>Charles</FirstName>
         <LastName>Helmberger</LastName>
+        <Email>charles.helmberger@fakecompany.com</Email>
         <EmpID>44213</EmpID>
         <Salary>150</Salary>
         <Dept>dog</Dept>
