@@ -21,14 +21,14 @@ mihker_etree = etree.parse(company_data)
 root = mihker_etree.getroot()
 
 # How to navigate:
-print(root.tag)
-print(len(root))
-print(root[0].tag)
-print(root[1].tag)
-print(root[0]) 
+# print(root.tag)
+# print(len(root))
+# print(root[0].tag)
+# print(root[1].tag)
+# print(root[0]) 
 
 # basic parsing by index number
-# for child in root:
+for child in root:
     # print(child[0].tag)
     # print(child[0].text)
     # print(child[1].tag)
@@ -50,14 +50,14 @@ print(root[0])
 
     # Presentable(ish) employee data via LXML
     # note: this code may be simplified by using LEN
-    # print(f"{child[0].text} {child[1].text}:")
-    # print(f"{child[2].tag}: {child[2].text}")
-    # print(f"{child[3].tag}: {child[3].text}")
-    # print(f"{child[4].tag}: ${child[4].text}")
-    # print(f"{child[5].tag}: ${child[5].text}")
-    # print(child[6][0].text)
-    # print(f"{child[6][2].text}, {child[6][3].text} {child[6][4].text}")
-    # print(child.get("id"))  # attribute syntax 
+    print(f"{child[0].text} {child[1].text}:")
+    print(f"{child[2].tag}: {child[2].text}")
+    print(f"{child[3].tag}: {child[3].text}")
+    print(f"{child[4].tag}: {child[4].text}")
+    print(f"{child[5].tag}: ${child[5].text}")
+    print(child[6][0].text)
+    print(f"{child[6][2].text}, {child[6][3].text} {child[6][4].text}")
+    # print(child.get("id"))  # attribute syntax (removed attribute from source file)
     # print()
   
 #######################################################

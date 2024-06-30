@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<! -- XML comment syntax -->
 <Employees>
-        <Employee id="1">
+    <Employee>
         <FirstName>Mihker</FirstName>
         <LastName>Gardner</LastName>
         <Email>mihker.gardner@fakecompany.com</Email>
@@ -17,7 +16,7 @@
         </Address>
     </Employee>
 
-    <Employee id="2">
+    <Employee>
         <FirstName>Lily</FirstName>
         <LastName>Gardner-Butts</LastName>
         <Email>lily.gardner-butts@fakecompany.com</Email>
@@ -33,7 +32,7 @@
         </Address>
     </Employee>
 
-        <Employee id="3">
+    <Employee>
         <FirstName>Jill</FirstName>
         <LastName>Helmberger</LastName>
         <Email>jill.helmberger@fakecompany.com</Email>
@@ -49,7 +48,7 @@
         </Address>
     </Employee>
 
-    <Employee id="4">
+    <Employee>
         <FirstName>Charles</FirstName>
         <LastName>Helmberger</LastName>
         <Email>charles.helmberger@fakecompany.com</Email>
