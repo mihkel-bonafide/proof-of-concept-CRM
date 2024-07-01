@@ -31,8 +31,8 @@ def read_yaml_data():
 def employee_database_reader(opus):
     print()
     print(f"Current employees:")
-    for counter, beaker in enumerate(opus, start=1):
-        print(f"{counter}. {beaker["FirstName"]} {beaker["LastName"]}")
+    for counter, reader in enumerate(opus, start=1):
+        print(f"{counter}. {reader["FirstName"]} {reader["LastName"]}")
     print()
     employee_record = int(input(f"Please select an employee record (by number): "))
     if employee_record == 1:
