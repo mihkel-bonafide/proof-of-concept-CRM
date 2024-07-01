@@ -7,7 +7,7 @@ Employee:
     Salary: 169000
     Dept: IT
     Address:
-    - Street: 2734 NE 49th Ave
+      Street: 2734 NE 49th Ave
       Unit: 
       City: Portland
       State: OR
@@ -19,7 +19,7 @@ Employee:
     Salary: 100000
     Dept: CEO
     Address:
-    - Street: 2734 NE 49th Ave
+      Street: 2734 NE 49th Ave
       Unit: 
       City: Portland
       State: OR
@@ -31,7 +31,7 @@ Employee:
     Salary: 200000
     Dept: CTO
     Address:
-    - Street: 15900 NE 18th St
+      Street: 15900 NE 18th St
       Unit: 
       City: Vancouver
       State: WA
@@ -43,7 +43,7 @@ Employee:
     Salary: 150
     Dept: dog
     Address:
-    - Street: 15900 NE 18th St
+      Street: 15900 NE 18th St
       Unit: 
       City: Vancouver
       State: OWA
