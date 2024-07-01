@@ -10,19 +10,19 @@ as simple as possible. -MPG, 7.1.24
 """
 
 def read_xml_data():
-    # read CompanyData.xml and assign its value to a python dictionary 
+    # read CompanyData.xml and assign an array of dictionary "Employee" objects to the variable "xml_opus"
     company_data = open("CompanyData.xml", "r")
     xml_opus = xmltodict.parse(company_data.read())["Employees"]["Employee"]
     employee_database_reader(xml_opus)
 
 def read_json_data(): 
-    # read CompanyData.xml and assign its value to a python dictionary
+    # read CompanyData.json and assign an array of dictionary "Employee" objects to the variable "json_opus"
     company_data = json.load(open("CompanyData.json"))
     json_opus = company_data["Employee"]
     employee_database_reader(json_opus)
 
 def read_yaml_data():
-    # read CompanyData.yaml and assign its value to a python dictionary
+    # read CompanyData.yaml and assign an array of dictionary "Employee" objects to the variable "yaml_opus"
     with open("CompanyData.yaml", "r") as reader:
         company_data = yaml.safe_load(reader)
     yaml_opus = company_data["Employee"]
