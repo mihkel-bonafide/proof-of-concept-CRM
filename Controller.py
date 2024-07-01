@@ -9,6 +9,22 @@ concerned with ux-design at this stage - rather I'm principally concerned with m
 as simple as possible. -MPG, 7.1.24
 """
 
+def main():    
+    print(f"Welcome to FakeCompany.com's Employee Database")
+    print()
+    print(f"Please select a database.")
+    choose_database = input(f"(type 'xml', 'json', or 'yaml'): ")
+    if choose_database.lower() == "xml":
+        read_xml_data()
+    elif choose_database.lower() == 'json':
+        read_json_data()
+    elif choose_database.lower() == 'yaml':
+        read_yaml_data()
+    else:       
+        print("Invalid entry.") 
+        print()
+        main() 
+        
 def read_xml_data():
     # read CompanyData.xml and assign an array of dictionary "Employee" objects to the variable "xml_opus"
     company_data = open("CompanyData.xml", "r")
@@ -69,17 +85,6 @@ def employee_info(deets):
         print(f"You mistyped that, here lemme help you out...")
         main() 
         
-def main():    
-    print(f"Welcome to FakeCompany.com's Employee Database")
-    print()
-    print(f"Please select a database.")
-    choose_database = input(f"(type 'xml', 'json', or 'yaml'): ")
-    if choose_database.lower() == "xml":
-        read_xml_data()
-    elif choose_database.lower() == 'json':
-        read_json_data()
-    elif choose_database.lower() == 'yaml':
-        read_yaml_data()
-    else:       
-        return False 
-main()
+    
+if __name__ == "__main__":
+    main()
