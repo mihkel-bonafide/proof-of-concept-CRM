@@ -2,6 +2,7 @@
 Employee:
 -   FirstName: Mihker
     LastName: Gardner
+    Email: mihker.gardner@fakecompany.com
     EmpID: "44210"
     Salary: 169000
     Dept: IT
@@ -13,6 +14,7 @@ Employee:
       ZipCode: "97213"
 -   FirstName: Lily
     LastName: Gardner-Butts
+    Email: lily.gardner-butts@fakecompany.com
     EmpID: "44211"
     Salary: 100000
     Dept: CEO
@@ -24,6 +26,7 @@ Employee:
       ZipCode: "97213"
 -   FirstName: Jill
     LastName: Helmberger
+    Email: jill.helmberger@fakecompany.com
     EmpID: "44212"
     Salary: 200000
     Dept: CTO
@@ -35,6 +38,7 @@ Employee:
       ZipCode: "99003"
 -   FirstName: Charles
     LastName: Helmberger
+    Email: charles.helmberger@fakecompany.com
     EmpID: "44213"
     Salary: 150
     Dept: dog
