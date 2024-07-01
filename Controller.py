@@ -1,5 +1,6 @@
 import xmltodict
 import json
+import yaml
 
 """
 (still in beta) The purpose of this program is to read CompanyData.xml/json/yaml, parse the data into a Python 
@@ -19,6 +20,13 @@ def read_json_data():
     company_data = json.load(open("CompanyData.json"))
     json_opus = company_data["Employee"]
     employee_database_reader(json_opus)
+
+def read_yaml_data():
+    # read CompanyData.yaml and assign its value to a python dictionary
+    with open("CompanyData.yaml", "r") as reader:
+        company_data = yaml.safe_load(reader)
+    yaml_opus = company_data["Employee"]
+    employee_database_reader(yaml_opus)
 
 def employee_database_reader(opus):
     print()
@@ -56,7 +64,7 @@ def employee_info(deets):
     if back_or_exit.lower() == "e":
         print(f"This terminates the program.") 
     elif back_or_exit.lower() == "b":
-        read_json_data()
+        read_json_data()  # arbitrary - any of the read modules will effectuate the same outcome
     else:
         print(f"You mistyped that, here lemme help you out...")
         main() 
@@ -70,6 +78,8 @@ def main():
         read_xml_data()
     elif choose_database.lower() == 'json':
         read_json_data()
+    elif choose_database.lower() == 'yaml':
+        read_yaml_data()
     else:       
         return False 
 main()
