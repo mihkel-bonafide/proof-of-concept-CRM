@@ -30,7 +30,7 @@
                         "Unit": "none",
                         "City": "Portland",
                         "State": "OR",
-                        "Zip": "97213"
+                        "ZipCode": "97213"
                     }
             },
             {
@@ -46,7 +46,7 @@
                         "Unit": "none",
                         "City": "Vancouver",
                         "State": "WA",
-                        "Zip": "98003"
+                        "ZipCode": "98003"
                     }
             },
             {
@@ -62,7 +62,7 @@
                         "Unit": "none",
                         "City": "Vancouver",
                         "State": "WA",
-                        "Zip": "98003"
+                        "ZipCode": "98003"
                     }
             }
 
