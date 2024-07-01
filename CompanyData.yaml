@@ -10,7 +10,7 @@ Employee:
       Unit: 
       City: Portland
       State: OR
-      Zip: "97213"
+      ZipCode: "97213"
 -   FirstName: Lily
     LastName: Gardner-Butts
     EmpID: "44211"
@@ -21,7 +21,7 @@ Employee:
       Unit: 
       City: Portland
       State: OR
-      Zip: "97213"
+      ZipCode: "97213"
 -   FirstName: Jill
     LastName: Helmberger
     EmpID: "44212"
@@ -32,7 +32,7 @@ Employee:
       Unit: 
       City: Vancouver
       State: WA
-      Zip: "99003"
+      ZipCode: "99003"
 -   FirstName: Charles
     LastName: Helmberger
     EmpID: "44213"
@@ -43,5 +43,5 @@ Employee:
       Unit: 
       City: Vancouver
       State: OWA
-      Zip: "99003"
+      ZipCode: "99003"
 ...
